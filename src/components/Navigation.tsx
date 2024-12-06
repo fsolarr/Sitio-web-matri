@@ -3,11 +3,11 @@ import { Menu, X } from 'lucide-react';
 
 const navItems = [
   { label: 'Home', href: '#home' },
-  { label: 'Schedule', href: '#schedule' },
-  { label: 'RSVP', href: '#rsvp' },
-  { label: 'Registry', href: '#registry' },
-  { label: 'Venue', href: '#venue' },
-  { label: 'Guestbook', href: '#guestbook' },
+  { label: 'Programa', href: '#schedule' },
+  { label: 'Confirma', href: '#rsvp' },
+  { label: 'Regalo', href: '#registry' },
+  { label: 'Evento', href: '#venue' },
+  { label: 'Escribenos', href: '#guestbook' },
 ];
 
 export function Navigation() {

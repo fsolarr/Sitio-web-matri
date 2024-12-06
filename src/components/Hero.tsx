@@ -14,9 +14,9 @@ export function Hero() {
       </div>
       <div className="relative h-full flex flex-col items-center justify-center text-white text-center px-4">
         <Heart className="w-16 h-16 mb-8 animate-pulse text-pink-400" />
-        <h1 className="text-5xl md:text-7xl font-bold mb-4 font-serif">Sarah & John</h1>
-        <p className="text-xl md:text-2xl mb-8">Are getting married!</p>
-        <p className="text-lg md:text-xl font-light">Join us in celebrating our special day</p>
+        <h1 className="text-5xl md:text-7xl font-bold mb-4 font-serif">Josefina & Pipo</h1>
+        <p className="text-xl md:text-2xl mb-8">Nos casamos!!!</p>
+        <p className="text-lg md:text-xl font-light">Acompañanos a celebrar este día tan especial</p>
       </div>
     </div>
   );

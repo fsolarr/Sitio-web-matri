@@ -9,10 +9,10 @@ export function VenueMap() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="rounded-lg overflow-hidden shadow-lg">
             <iframe
-              title="Wedding Venue Location"
+              title="Ubicación del Matrimonio: Santo Pez Marbella"
               className="w-full h-96"
               frameBorder="0"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937595!2d2.2922926!3d48.8583736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sus!4v1647834456789!5m2!1sen!2sus"
+              src="https://www.google.com/maps/place/Club+House+Marbella/@-32.6602859,-71.4337882,17z/data=!3m1!4b1!4m6!3m5!1s0x9689b96d3065c9b1:0x475865a740397b11!8m2!3d-32.6602859!4d-71.4312133!16s%2Fg%2F11h5v90t54?entry=ttu&g_ep=EgoyMDI0MTIwMy4wIKXMDSoASAFQAw%3D%3D"
               allowFullScreen
               loading="lazy"
             />
@@ -25,8 +25,8 @@ export function VenueMap() {
                 <div>
                   <h4 className="font-semibold mb-2">Address</h4>
                   <p className="text-gray-600">
-                    123 Wedding Venue Street<br />
-                    Beautiful City, ST 12345
+                    Santo Pez<br />
+                    Condominio Marbella, Puchuncaví
                   </p>
                 </div>
               </div>

@@ -9,7 +9,7 @@ interface TimeLeft {
 
 export function CountdownTimer() {
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-  const weddingDate = new Date('2024-12-31T00:00:00'); // Customizable date
+  const weddingDate = new Date('2025-10-11T17:00:00'); // Customizable date
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -30,7 +30,7 @@ export function CountdownTimer() {
   return (
     <div className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">Counting Down to Our Big Day</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Cuenta Regresiva del Magno Evento</h2>
         <div className="flex justify-center space-x-4 md:space-x-8">
           {Object.entries(timeLeft).map(([unit, value]) => (
             <div key={unit} className="text-center">
